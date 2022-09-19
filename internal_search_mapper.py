@@ -9,7 +9,7 @@ internal searches to.
 3) Paths are hardcoded, please enter your own for GA, Screaming Frog and the output csv files
 4) V2 Now contains fuzzy matching!"""
 
-
+import streamlit as st
 from polyfuzz import PolyFuzz
 from glob import glob
 import pandas as pd
